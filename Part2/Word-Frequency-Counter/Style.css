@@ -1,0 +1,75 @@
+/* Enhanced Spotify-Inspired Dark Theme */
+body {
+    font-family: 'Circular', Arial, sans-serif;
+    background-color: #101010;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Centered form container with improved styling */
+form {
+    background-color: #181818;
+    border: 1px solid #282828;
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+form:hover {
+    box-shadow: 0px 8px 20px rgba(0, 255, 127, 0.3);
+}
+
+/* Labels and input fields */
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    color: #b3b3b3;
+    text-align: left;
+}
+
+textarea,
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    background-color: #282828;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+textarea:focus,
+select:focus,
+input:focus {
+    border-color: #1db954;
+    box-shadow: 0 0 10px rgba(29, 185, 84, 0.6);
+}
+
+/* Submit button with hover effects */
+input[type="submit"] {
+    background-color: #1db954;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #1ed760;
+    transform: scale(1.07);
+    box-shadow: 0px 5px 15px rgba(29, 185, 84, 0.5);
+}
